@@ -19,11 +19,11 @@ export class SidebarFooterComponent implements OnInit {
     return '2019';
   }
   get devTeam() {
-    return 'GTD Team G1';
+    return 'Team Yanapay';
   }
 
   get version() {
-    return '2.0.0';
+    return '1.0.0';
   }
   get envName() {
     return 'dev';

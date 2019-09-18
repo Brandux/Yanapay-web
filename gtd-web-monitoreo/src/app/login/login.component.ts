@@ -17,7 +17,6 @@ export class LoginComponent implements OnInit {
 
   ngOnInit() {
     this.loginForm = this.formBuilder.group({
-      username: ['', [Validators.required]],
       password: ['', [Validators.required]],
     });
   }
@@ -33,7 +32,7 @@ export class LoginComponent implements OnInit {
       //     console.log(resp);
       //   }
       // });
-      this.router.navigate(['/menu']);
+      this.router.navigate(['/home/dashboard']);
       console.log('data', valid, values);
     }
   }

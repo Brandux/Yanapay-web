@@ -11,9 +11,7 @@
           
           <small >
                 <form  [formGroup]="loginForm" novalidate>
-                  <input type="text" name="username"  formControlName="username" autofocus placeholder="Usuario">
-                  <br>
-                  <input type="password" name="password"  formControlName="password" autofocus placeholder="Contraseña">
+                  <input type="password" name="password"  formControlName="password" autofocus placeholder="Ping de Seguridad">
                   <br>
                     <button class="enter btn btn-primary btn-large" (click)="onlogin()" type="submit">
                         INGRESAR
@@ -24,9 +22,4 @@
         
         </div>
   </div>
-  
-  <div class="logo-iasd right" >
-          <img  class="lamb-icon iasdLogo" src="assets/logos/logo_iasd.png" alt="Logo"> 
-  </div>
- 
 </div>

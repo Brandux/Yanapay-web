@@ -1,6 +1,8 @@
-<!-- body -->
-<!-- <div (click)="onClickMenu($event)"> -->
-    <div >
-        <!-- <lamb-menu [items]="items">dfsdf</lamb-menu> -->
-  <a href="">menu</a>
-</div>
+<nb-card size="medium">
+  <nb-list>
+    <nb-list-item *ngFor="let user of users">
+      <nb-user style="cursor: pointer" [name]="user.name" [title]="user.title" (click)="gps(user.id);">
+       </nb-user>
+    </nb-list-item>
+  </nb-list>
+</nb-card>

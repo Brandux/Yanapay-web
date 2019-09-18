@@ -7,6 +7,16 @@
   display: flex;
   justify-content: space-between;
   width: 100%;
+
+    ul {
+      list-style-type: none;
+      margin: auto;
+      li {
+        .lamb-entity {
+          font-weight: 600;
+        }
+      }
+    }
     
   .logo {
     padding: 0 nb-theme(padding);

@@ -13,6 +13,7 @@ import {
   NbCardModule, NbSidebarModule, NbMenuModule, NbUserModule,
   NbActionsModule, NbContextMenuModule, NbThemeModule,
   NbLayoutModule,
+  NbListModule,
 } from '@nebular/theme';
 import { RouterModule } from '@angular/router';
 import { LambMenuModule, LambTitleModule } from 'lamb-web-lib';
@@ -33,6 +34,7 @@ const NB_MODULES: any[] = [
   NbUserModule,
   NbActionsModule,
   NbContextMenuModule,
+  NbListModule,
 ];
 
 const CORE_COMPONENTS: any[] = [
